@@ -39,11 +39,11 @@ namespace program{
 
          
 
-            /* Task11.GetAllDoctors(context); 
-             Task11.AddEnemytblEpisod(context,1,"2"); 
-             */
-            // CrudMethods.DeleteAuthor(context, 1);
-            // CrudMethods.CreateAuthor(context, "yoy");
+            GettingData.GetAllDoctors(context);
+            GettingData.GetCompanionById(context,1);
+            GettingData.GetEnemyById(context,1);
+             CrudMethods.DeleteAuthor(context, 1);
+            CrudMethods.CreateAuthor(context, "yoy");
 
         }
     }
