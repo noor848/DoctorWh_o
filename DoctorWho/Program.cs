@@ -35,10 +35,6 @@ namespace program{
             SeedData.InsertEnemyEpisodData(context,"D5","nothing---",488,"ew","note1",589,"-");
             SeedData.InsertEnemyEpisodData(context,"D5","nothing---",488,"ew","note1",589,"-");
             SeedData.InsertEnemyEpisodData(context,"D5","nothing---",488,"ew","note1",589,"-");
-
-
-         
-
             GettingData.GetAllDoctors(context);
             GettingData.GetCompanionById(context,1);
             GettingData.GetEnemyById(context,1);
